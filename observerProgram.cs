@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 namespace observer
 {
-
-    // Nayyar / John
     public interface Subscriber
     { 
         void Update(IPublisher subject);
